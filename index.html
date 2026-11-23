@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TECHSMART · Assistência técnica</title>
+<meta name="description" content="TECHSMART: assistência técnica para celulares Samsung, Apple, Motorola e Xiaomi. Conte o que aconteceu com seu aparelho e receba orientação da nossa equipe.">
+<meta property="og:title" content="TECHSMART · Assistência técnica">
+<meta property="og:description" content="Assistência técnica para celulares Samsung, Apple, Motorola e Xiaomi.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0D0D0D">
+<link rel="stylesheet" href="style.css">
+<script src="vendor/lenis/lenis.min.js"></script>
+
+</head>
+<body class="nojs">
+<a class="btn sm" href="#servicos" style="position:absolute;left:-9999px;top:8px;z-index:99" onfocus="this.style.left='16px'" onblur="this.style.left='-9999px'">Pular para o conteúdo</a>
+
+<header class="hd" id="hd">
+  <div class="wrap">
+    <a class="logo" href="#inicio" data-go="inicio" aria-label="TECHSMART, voltar ao início"><svg class="brand-logo" viewBox="11 47 125 60" width="144" height="69" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="currentColor" stroke-width="2.05" stroke-linecap="round" stroke-linejoin="round"><rect x="13.4" y="49.25" width="120" height="55.2" rx="6.5" stroke-width="2.6"/><path d="M59 62.6H41.5V56.2H119.8V76.5H102"/><path d="M52 62.6V70"/><path d="M63 62.6H79 M79 66.5H63V68.4Q63 70 65.3 70H79"/><path d="M98 62.6H86.2Q82.5 62.6 82.5 66.3T86.2 70H98"/><path d="M102 62.6V70 M102 66.3H116.5 M116.5 62.6V70"/><path d="M41.5 76H28.7Q26.2 76 26.2 77.8T28.7 79.7H39Q41.6 79.7 41.6 81.6T39 83.5H26.5"/><path d="M46 83.5V76.6Q46 75.6 47.1 76.3L54 83.4L60.8 76.3Q61.9 75.6 61.9 76.6V83.5"/><path d="M66 83.6L71.7 76.4Q72.5 75.3 73.4 76.4L79.2 83.6"/><path d="M83 76H95.8Q98 76 98 77.9T95.8 79.8H85.2Q83 79.8 83 82V83.5 M92.7 79.9L98 83.5"/><path d="M109.2 76.5V83.6"/><path d="M21 90.2H125"/></g></svg></a>
+    <nav class="nav" id="nav" aria-label="Principal"></nav>
+    <a class="btn sm wa" href="#o-que-busca" data-cta="header" data-go="o-que-busca"><i class="ich" aria-hidden="true"></i>Fale conosco</a>
+    <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="mm"><span></span><span></span></button>
+  </div>
+</header>
+<div class="mm" id="mm" data-lenis-prevent aria-hidden="true"></div>
+
+<!-- ================= HOME ================= -->
+<main class="view" id="v-home">
+  <section class="intro" id="inicio" aria-label="Abertura">
+    <div class="intro-pin">
+      <div class="iword" id="iword" aria-hidden="true">TECHSMART</div>
+      <canvas id="ph3d" aria-hidden="true"></canvas>
+      <div class="ifb" aria-hidden="true"><div class="cssph"><div>TECH<span style="color:var(--or)">SMART</span></div></div></div>
+      <div class="ihint" id="ihint" aria-hidden="true"><i></i>Role para explorar</div>
+      <div class="hero" id="hero">
+        <div class="wrap hero-tx">
+          <span class="eb">Assistência técnica de celulares</span>
+          <h1 id="h1"><span class="video-line">Seu celular nas</span> <span class="video-line">mãos de quem</span> <em>entende do assunto.</em></h1>
+          <p class="lead">Atendemos Samsung, Apple, Motorola e Xiaomi. Conte o que aconteceu com o seu aparelho e a nossa equipe orienta o melhor caminho, com avaliação antes de qualquer serviço.</p>
+          <div class="hero-cta">
+            <a class="btn wa" href="#o-que-busca" data-go="o-que-busca" data-cta="hero"><i class="ich" aria-hidden="true"></i>Fale conosco</a>
+            <a class="btn gh" href="#servicos" data-go="servicos">Ver serviços</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="servicos" aria-labelledby="t-sv">
+    <div class="wrap">
+      <div class="head"><span class="eb" data-rv>Serviços</span><h2 id="t-sv" data-rv style="--i:1">O cuidado certo para cada problema do seu aparelho.</h2><p class="lead" data-rv style="--i:2">Cada atendimento começa por uma avaliação. Assim você sabe o que está acontecendo antes de decidir o próximo passo.</p></div>
+      <div class="sv" id="sv"></div>
+    </div>
+  </section>
+
+  <section class="sec nes" id="nosso-espaco" aria-labelledby="t-ne" style="padding-top:0">
+    <div class="nes-pin">
+    <div class="wrap">
+      <div class="head"><span class="eb" data-rv>Nosso espaço</span><h2 id="t-ne" data-rv style="--i:1">Conheça onde o seu aparelho é atendido.</h2></div>
+    </div>
+    <canvas id="lap3d" aria-hidden="true"></canvas>
+    <div class="wrap car-wrap">
+      <div class="car" data-rv="z" aria-roledescription="carrossel" aria-label="Fotos da TECHSMART">
+        <div class="track" id="track" data-lenis-prevent tabindex="0"></div>
+        <div class="car-ui"><div class="dots" id="dots" role="group" aria-label="Escolher foto"></div>
+          <div class="arr"><button id="prev" aria-label="Foto anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg></button><button id="next" aria-label="Próxima foto"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg></button></div></div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="sec res" id="resultados" aria-labelledby="t-rs">
+    <div class="wrap">
+      <div class="head"><span class="eb" data-rv>Resultados</span><h2 id="t-rs" data-rv style="--i:1">Experiência que aparece em cada atendimento.</h2></div>
+      <div class="st" id="st"></div>
+    </div>
+  </section>
+
+  <section class="sec" id="o-que-busca" aria-labelledby="t-ob">
+    <div class="wrap">
+      <div class="head c"><span class="eb" data-rv>Atendimento por marca</span><h2 id="t-ob" data-rv style="--i:1">O QUE BUSCA?</h2><p class="lead" data-rv style="--i:2">Escolha a marca do seu aparelho para começar o atendimento já com essa informação.</p></div>
+      <div class="bb" id="bb" role="group" aria-label="Marca do aparelho"></div>
+      <p class="fbk" id="fbk" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <section class="sec prs" id="processo" aria-labelledby="t-pr" style="padding-block:0">
+    <div class="wrap">
+      <div class="head"><span class="eb" data-rv>Processo</span><h2 id="t-pr" data-rv style="--i:1">Do primeiro contato à devolução do aparelho.</h2><p class="lead" data-rv style="--i:2">Um caminho simples e transparente, para você saber em que etapa o seu atendimento está.</p></div>
+      <ol class="pr" id="pr" style="list-style:none;margin:0;padding:0"></ol>
+    </div>
+  </section>
+
+  <section class="sec" id="depoimentos" aria-labelledby="t-dp" style="padding-top:0">
+    <div class="wrap">
+      <div class="head c"><span class="eb" data-rv>Depoimentos</span><h2 id="t-dp" data-rv style="--i:1">O que dizem os nossos clientes.</h2></div>
+      <div id="dp"></div>
+    </div>
+  </section>
+
+  <section class="sec" id="duvidas" aria-labelledby="t-fq" style="padding-top:0">
+    <div class="wrap">
+      <div class="head c"><span class="eb" data-rv>Dúvidas</span><h2 id="t-fq" data-rv style="--i:1">Perguntas frequentes.</h2></div>
+      <div class="fq" id="fq" data-rv></div>
+    </div>
+  </section>
+
+  <section class="cta" id="contato" aria-labelledby="t-ct">
+    <div class="wrap">
+      <div class="ban" data-rv="z">
+        <div><h2 id="t-ct">Precisa de ajuda com o seu aparelho?</h2><p>Fale com a TECHSMART e descubra o próximo passo. Nossa equipe avalia o seu caso e explica as opções com clareza.</p><span class="ctx" id="ctx" hidden></span></div>
+        <a class="btn wa" id="cta-final" href="#o-que-busca" data-go="o-que-busca" data-cta="final"><i class="ich" aria-hidden="true"></i>Fale conosco</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ================= PÁGINAS INTERNAS ================= -->
+<main class="view doc" id="v-politica-de-privacidade" hidden><div class="wrap">
+  <a class="back" href="#inicio" data-go="inicio">← Voltar ao início</a>
+  <h1>Política de privacidade</h1><p class="upd">Última atualização: 2026. </p>
+  <h2>Quais dados este site trata</h2><p>Este site não possui formulários, contas de usuário nem ferramentas de análise ou publicidade ativas. Não coletamos nome, telefone, e-mail ou outros dados pessoais pelo site.</p>
+  <h2>Contato pelo WhatsApp</h2><p>Ao tocar em um botão de atendimento, você é direcionado ao WhatsApp, que pertence a outra empresa e segue a própria política de privacidade. As informações que você enviar na conversa são usadas apenas para responder ao seu atendimento.</p>
+  <h2>Armazenamento no navegador</h2><p>Esta página não grava cookies, preferências ou identificadores de navegação.</p>
+  <h2>Seus direitos</h2><p>Nos termos da LGPD, você pode solicitar informações, correção ou exclusão de dados pessoais tratados pela TECHSMART pelos canais oficiais de atendimento.</p>
+</div></main>
+<main class="view doc" id="v-termos-de-uso" hidden><div class="wrap">
+  <a class="back" href="#inicio" data-go="inicio">← Voltar ao início</a>
+  <h1>Termos de uso</h1><p class="upd">Última atualização: 2026. </p>
+  <h2>Sobre este site</h2><p>Este site apresenta os serviços da TECHSMART e facilita o contato para atendimento. As informações têm caráter informativo e não constituem orçamento.</p>
+  <h2>Orçamentos e serviços</h2><p>Valores, prazos e condições de cada serviço são informados somente após a avaliação do aparelho e dependem da disponibilidade de peças.</p>
+  <h2>Marcas citadas</h2><p>Samsung, Apple, Motorola e Xiaomi são marcas de seus respectivos titulares e aparecem aqui apenas para indicar os fabricantes de aparelhos atendidos.</p>
+  <h2>Alterações</h2><p>Estes termos podem ser atualizados a qualquer momento. A versão vigente é sempre a publicada nesta página.</p>
+</div></main>
+<main class="view doc" id="v-404" hidden><div class="wrap" style="text-align:center">
+  <span class="eb">Erro 404</span><h1>Página não encontrada.</h1><p class="lead" style="margin-inline:auto">O endereço acessado não existe ou mudou de lugar.</p>
+  <p style="margin-top:28px"><a class="btn" href="#inicio" data-go="inicio">Voltar ao início</a></p>
+</div></main>
+
+<footer class="ft">
+  <div class="wrap">
+    <div class="ft-g">
+      <div><a class="logo" href="#inicio" data-go="inicio" aria-label="TECHSMART, voltar ao início"><svg class="brand-logo" viewBox="11 47 125 60" width="144" height="69" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="currentColor" stroke-width="2.05" stroke-linecap="round" stroke-linejoin="round"><rect x="13.4" y="49.25" width="120" height="55.2" rx="6.5" stroke-width="2.6"/><path d="M59 62.6H41.5V56.2H119.8V76.5H102"/><path d="M52 62.6V70"/><path d="M63 62.6H79 M79 66.5H63V68.4Q63 70 65.3 70H79"/><path d="M98 62.6H86.2Q82.5 62.6 82.5 66.3T86.2 70H98"/><path d="M102 62.6V70 M102 66.3H116.5 M116.5 62.6V70"/><path d="M41.5 76H28.7Q26.2 76 26.2 77.8T28.7 79.7H39Q41.6 79.7 41.6 81.6T39 83.5H26.5"/><path d="M46 83.5V76.6Q46 75.6 47.1 76.3L54 83.4L60.8 76.3Q61.9 75.6 61.9 76.6V83.5"/><path d="M66 83.6L71.7 76.4Q72.5 75.3 73.4 76.4L79.2 83.6"/><path d="M83 76H95.8Q98 76 98 77.9T95.8 79.8H85.2Q83 79.8 83 82V83.5 M92.7 79.9L98 83.5"/><path d="M109.2 76.5V83.6"/><path d="M21 90.2H125"/></g></svg></a><p class="ft-d">Assistência técnica para celulares Samsung, Apple, Motorola e Xiaomi, com avaliação antes de qualquer serviço.</p></div>
+      <div><h4>Navegação</h4><ul id="ft-nav"></ul></div>
+      <div><h4>Contato</h4><ul id="ft-ct"></ul></div>
+      <div><h4>Legal</h4><ul><li><a href="#politica-de-privacidade">Política de privacidade</a></li><li><a href="#termos-de-uso">Termos de uso</a></li></ul></div>
+    </div>
+    <div class="cred">
+      <p id="copy">TECHSMART © 2026 - Todos os direitos reservados.</p>
+      <p>Desenvolvido com <svg class="heart" viewBox="0 0 24 24" fill="currentColor" role="img" aria-label="amor"><path d="M12 21s-7.5-4.6-9.6-9.3C1 8.4 3 4.5 6.9 4.5c2.1 0 3.7 1.1 5.1 2.9 1.4-1.8 3-2.9 5.1-2.9C21 4.5 23 8.4 21.6 11.7 19.5 16.4 12 21 12 21z"/></svg> por: <a href="https://www.nyltech.com.br" target="_blank" rel="noopener noreferrer">Nyltech Dev.</a></p>
+      <p class="sub">Especialistas em criação de sites e tráfego pago. :)</p>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-fab" id="wa-fab" href="#o-que-busca" data-go="o-que-busca" aria-label="Fale conosco"><i class="ich" aria-hidden="true"></i></a>
+
+
+<script src="main.js"></script>
+
+<script type="module" src="scene.js"></script>
+
+
+
+</body>
+</html>
